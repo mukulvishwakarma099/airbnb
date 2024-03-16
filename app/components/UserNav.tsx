@@ -16,7 +16,7 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 const UserNav = async () => {
   const { getUser } = getKindeServerSession();
   const user = await getUser();
-  console.log(user);
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger>
