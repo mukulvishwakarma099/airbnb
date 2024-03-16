@@ -49,6 +49,10 @@
   }
 }
 
+body {
+  background: gray;
+}
+
 @layer base {
   * {
     @apply border-border;
