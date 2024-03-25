@@ -22,7 +22,7 @@ const MapFilterItem = () => {
   );
 
   return (
-    <div className="flex gap-x-10 mt-5 w-full overflow-x-scroll no-scrollbar">
+    <div className="flex gap-10 mt-5 w-full overflow-x-scroll no-scrollbar">
       {categoryItems.map((item) => (
         <Link
           key={item.id}
